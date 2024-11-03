@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Object Detection and Hand Tracking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        #videoElement {
+            width: 60%;  /* Adjust the width to make it medium-sized */
+            max-width: 800px;  /* Ensure it doesn't get too large */
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        #controls {
+            margin-top: 20px;
+        }
+        input, button {
+            font-size: 16px;
+            padding: 10px;
+            margin: 5px;
+        }
+        button {
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Real-Time Object Detection and Hand Tracking</h1>
+    <div>
+        <img id="videoElement" src="{{ url_for('video_feed') }}" alt="video">
+    </div>
+    <div><p> This is a demo version and it is developed for an educational purpose</p></div>
+    
+
+</body>
+</html>
