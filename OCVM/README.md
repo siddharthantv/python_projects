@@ -19,27 +19,20 @@ This project demonstrates a real-time object detection and hand tracking applica
 
 ## Installation
 
-1. **Clone the Repository**:
-
-    ```bash
-    git clone https://github.com/yourusername/your-repository.git
-    cd your-repository
-    ```
-
-2. **Create a Virtual Environment (Optional but recommended)**:
+1. **Create a Virtual Environment (Optional but recommended)**:
 
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. **Install the Required Packages**:
+2. **Install the Required Packages**:
 
     ```bash
     pip install Flask opencv-python tensorflow mediapipe numpy
     ```
 
-4. **Download the Pre-trained Model**:
+3. **Download the Pre-trained Model**:
 
     Ensure you have the SSD MobileNet v2 model. Place the `ssd_mobilenet_v2/saved_model` directory in the same location as this script.
 
