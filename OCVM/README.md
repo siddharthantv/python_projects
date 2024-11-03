@@ -64,10 +64,6 @@ This project demonstrates a real-time object detection and hand tracking applica
 - **Model Loading Issues**: Verify that the model path is correct and the model files are present.
 - **Dependencies**: Make sure all required packages are installed.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ## Acknowledgements
 
 - TensorFlow
